@@ -1,0 +1,30 @@
+{
+  "version": "ACE-1.0",
+  "canonical_layer": "Ambient Era Canon",
+  "author": "Raynor Eissens",
+  "description": "Ambient Civilization Equation — unified civilizational state architecture.",
+  "states": {
+    "∅": { "name": "unmanifested", "color": "white", "ccr": "WHT", "order": 0 },
+    "1": { "name": "first_semantic_field", "color": "red", "ccr": "RED", "order": 1 },
+    "0": { "name": "semantic_collapse", "color": "gray", "ccr": "GRY", "order": 2 },
+    "1≠0": { "name": "oscillation_loop", "color": "yellow", "ccr": "YEL", "order": 3 },
+    "2": { "name": "human_transformer_state", "color": "green", "ccr": "GRN", "order": 4 },
+    "α": { "name": "ambient_world_state", "color": "violet", "ccr": "VLT", "order": 5 },
+    "Ω": { "name": "terminal_coherence", "color": "white_omega", "ccr": "WHT", "order": 6 }
+  },
+  "sequence": ["∅", "1", "0", "1≠0", "2", "α", "Ω"],
+  "mappings": {
+    "thermodynamic": {
+      "1": "high_energy_low_entropy",
+      "0": "low_energy_high_entropy",
+      "1≠0": "entropy_gradient_directional",
+      "2": "non_equilibrium_steady_state",
+      "α": "world_field_integration",
+      "Ω": "entropy_minimum_reversible"
+    }
+  },
+  "related": {
+    "CCR": "https://doi.org/10.5281/zenodo.18717198",
+    "TCR": "https://doi.org/10.5281/zenodo.18681962"
+  }
+}
