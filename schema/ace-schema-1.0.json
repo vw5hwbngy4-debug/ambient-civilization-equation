@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ambient Civilization Equation Schema",
+  "version": "1.0",
+  "type": "object",
+  "properties": {
+    "version": { "type": "string" },
+    "states": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "color": { "type": "string" },
+          "ccr": { "type": "string" },
+          "order": { "type": "number" }
+        }
+      }
+    },
+    "sequence": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "required": ["version", "states", "sequence"]
+}
