@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "Ambient Civilization Equation (ACE-1.0)"
+authors:
+  - family-names: Eissens
+    given-names: Raynor
+doi: "10.5281/zenodo.18717506"
+date-released: "2026-02-20"
+url: "https://github.com/vw5hwbngy4-debug/ambient-civilization-equation"
+message: "Please cite this work when using ACE-1.0 in academic, technical or AI research contexts."
